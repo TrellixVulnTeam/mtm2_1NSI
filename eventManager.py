@@ -117,10 +117,13 @@ def correctAgeAvg(in_file_path: str, semester: int) -> float:
 
 
 #### PART 2 ####
-def printEventsList(events: list,
-                    file_path: str):  # em, event_names: list, event_id_list: list, day: int, month: int, year: int):
-    pass
-    # TODO
+# em, event_names: list, event_id_list: list, day: int, month: int, year: int):
+# def printEventsList(events: list, file_path: str):
+#     for event in events:
+#
+#     em = EM.
+#     pass
+#     # TODO
 
 
 def testPrintEventsList(file_path: str):
@@ -128,7 +131,9 @@ def testPrintEventsList(file_path: str):
                     {"name": "annual Rock & Metal party", "id": 2, "date": EM.dateCreate(21, 4, 2021)}, \
                     {"name": "Improv", "id": 3, "date": EM.dateCreate(13, 3, 2021)}, \
                     {"name": "Student Festival", "id": 4, "date": EM.dateCreate(13, 5, 2021)}, ]
-    em = printEventsList(events_lists, file_path)
-    for event in events_lists:
-        EM.dateDestroy(event["date"])
-    EM.destroyEventManager(em)
+    i = 9
+    # em = printEventsList(events_lists, file_path)
+    # for event in events_lists:
+    #     EM.dateDestroy(event["date"])
+    # EM.destroyEventManager(em)
+
