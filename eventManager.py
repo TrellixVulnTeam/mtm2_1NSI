@@ -34,7 +34,8 @@ def correctAgeAvg(in_file_path: str, semester: int) -> float:
 #   file_path: file path of the output file
 def printEventsList(events :list,file_path :str): #em, event_names: list, event_id_list: list, day: int, month: int, year: int):
     pass
-    #TODO   
+    #TODO
+# tofofofo
     
     
 def testPrintEventsList(file_path :str):
